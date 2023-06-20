@@ -20,6 +20,14 @@ public class ProductModel  implements Serializable {
     private String name;
     private BigDecimal value;
 
+    public UUID getIdProduct() {
+        return idProduct;
+    }
+
+    public void setIdProduct(UUID idProduct) {
+        this.idProduct = idProduct;
+    }
+
     public String getName() {
         return name;
     }
@@ -36,7 +44,5 @@ public class ProductModel  implements Serializable {
         this.value = value;
     }
 
-
-
-
+    
 }
